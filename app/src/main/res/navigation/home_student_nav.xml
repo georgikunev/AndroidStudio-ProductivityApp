@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_student_nav"
+    app:startDestination="@id/firstFragmentStudent">
+    <fragment
+        android:id="@+id/firstFragmentStudent"
+        android:name="com.example.productivityapp.StudentPanel.firstFragmentStudent"
+        android:label="fragment_first_student"
+        tools:layout="@layout/fragment_first_student" />
+    <fragment
+        android:id="@+id/secondFragmentStudent"
+        android:name="com.example.productivityapp.StudentPanel.secondFragmentStudent"
+        android:label="fragment_second_student"
+        tools:layout="@layout/fragment_second_student" />
+    <fragment
+        android:id="@+id/thirdFragmentStudent"
+        android:name="com.example.productivityapp.StudentPanel.thirdFragmentStudent"
+        android:label="fragment_third_student"
+        tools:layout="@layout/fragment_third_student" />
+</navigation>

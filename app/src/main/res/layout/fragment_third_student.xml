@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:id="@+id/thirdFragmentStudent"
+    tools:context=".StudentPanel.thirdFragmentStudent">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="5dp"
+        android:background="@color/black"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginBottom="110dp"
+        app:cardMaxElevation="5dp"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:id="@+id/txt_empty_list_courses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="4dp"
+            android:gravity="center"
+            android:text="@string/no_course_in_the_database_create_new_one_by_clicking_the_add_button_at_the_top_right"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="@color/black"
+            android:visibility="gone" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list_coursesEnrolled"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "363763128069",
+    "firebase_url": "https://productivityapp-50cd2-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "productivityapp-50cd2",
+    "storage_bucket": "productivityapp-50cd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363763128069:android:0a6231e2da09b3ef72496c",
+        "android_client_info": {
+          "package_name": "com.company.productivityapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363763128069-ujfqrnkef9fr52m5guq4cs009716048q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDimtfavY8STOtK7SFYvA5OCXgEQf5_BRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363763128069-ujfqrnkef9fr52m5guq4cs009716048q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363763128069:android:60e7719681f8040f72496c",
+        "android_client_info": {
+          "package_name": "com.example.productivityapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363763128069-ujfqrnkef9fr52m5guq4cs009716048q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDimtfavY8STOtK7SFYvA5OCXgEQf5_BRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363763128069-ujfqrnkef9fr52m5guq4cs009716048q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363763128069:android:cc7521d22ee6b04a72496c",
+        "android_client_info": {
+          "package_name": "com.example.productivityappsqlite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363763128069-ujfqrnkef9fr52m5guq4cs009716048q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDimtfavY8STOtK7SFYvA5OCXgEQf5_BRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363763128069-ujfqrnkef9fr52m5guq4cs009716048q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

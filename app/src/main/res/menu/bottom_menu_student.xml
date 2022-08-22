@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Начало"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:id="@+id/firstFragmentStudent" />
+    <item
+        android:title="Курсове"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:id="@+id/secondFragmentStudent" />
+    <item
+        android:title="Моите курсове"
+        android:icon="@drawable/ic_baseline_library_books_24"
+        android:id="@+id/thirdFragmentStudent" />
+</menu>
